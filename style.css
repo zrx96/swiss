@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: url(bg\ 1.png);
+  background-size: cover;
+  height: 100vh;
+}
+/* .header {
+  background-image: url(bg\ 1.png);
+  background-size: cover;
+  height: 100vh;
+} */
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav > a {
+  margin-right: 86px;
+  margin-top: 34px;
+  font-weight: 700;
+  font-size: 38.5714px;
+  line-height: 45px;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+.title {
+  font-family: "Roboto";
+  width: 1114px;
+  height: 192px;
+  font-weight: 900;
+  font-size: 80.2757px;
+  line-height: 94px;
+  text-align: center;
+
+  color: #ffffff;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 146px;
+}
+.description {
+  width: 515px;
+  font-weight: 900;
+  font-size: 56.6652px;
+  line-height: 44px;
+  /* or 78% */
+
+  text-align: center;
+
+  color: #ffffff;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 88px;
+}
+.input {
+  width: 447px;
+  height: 64px;
+  background: #e9e9e9;
+  border: 4px solid #8d8d8d;
+  border-radius: 20px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 84.19%;
+  /* or 20px */
+
+  text-align: center;
+
+  outline: none;
+}
+.form {
+  margin-top: 48px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.btn {
+  background: #5b89ce;
+  border: 2px solid #476443;
+  border-radius: 25px;
+  width: 261px;
+  height: 66px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 84.19%;
+  /* or 20px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.button {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-bottom: 165px;
+  padding-top: 32px;
+}
+.glav:hover {
+  color: #5b89ce;
+}
+.btn:hover {
+  color: black;
+  background: white;
+  box-shadow: 0 0 30px #5b89ce;
+}
